@@ -12,8 +12,6 @@ function Schedule(){
                     <Event key={event.id} event={event} />
                 ))
             }</Carousel>
-            {console.log("teste1")}
-            {console.log(events.listOfEvents)}
         </div>
     )
 }

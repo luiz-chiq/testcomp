@@ -11,9 +11,6 @@ function Carousel({ children }){
     const [ windowJustification, setWindowJustification ] = useState({ justifyContent : "flex-start" })
     const [ touchPosition, setTouchPosition ] = useState(null)
     let countChildren = 0
-
-    console.log("teste2")
-    console.log(children)
     
     const getCurrentCardWidth = () => {
         const card = document.querySelector(".carousel-card")
