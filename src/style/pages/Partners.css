@@ -6,6 +6,10 @@
     justify-content: center;
 }
 
+#organizers{
+    background-color: red;
+}
+
 .partnersTile{
     background-color: rgb(255, 255, 255);
     width: 70%;
